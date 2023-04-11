@@ -1,0 +1,117 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stile del titolo della pagina */
+header h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+/* Stile del menu di navigazione orizzontale */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+/* Stile della barra di ricerca */
+form {
+  text-align: center;
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+form button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Stile delle sezioni di contenuto */
+main section {
+  margin: 20px 0;
+}
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+main ul {
+  list-style: none;
+}
+
+main li {
+  margin-bottom: 5px;
+}
+
+main a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+main a:hover {
+  color: #666;
+}
+
+/* Stile del footer */
+footer {
+  text-align: center;
+  margin-top: 500px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  font-size: 16px;
+  color: #777;
+}
